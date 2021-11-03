@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.main-header {
+    width: 100%;
+    background-image: url(./img/3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    position: relative;
+}
+
+menu {
+    overflow: hidden;
+    height: 100px;
+    width: 1800px;
+    margin: 0 auto;
+}
+
+nav img {
+    float: left;
+    margin: 20px 0 0 10px;
+}
+
+nav menu .gnb {
+    float: left;
+    width: 1300px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+nav menu .gnb ul li {
+    list-style: none;
+    float: left;
+    margin: 0 85px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(247, 247, 247);
+}
+
+nav menu .login {
+    float: right;
+    margin: 43px 30px 0 0;
+}
+
+nav menu .login ul li {
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    color: rgb(247, 247, 247);
+}
+
+nav menu .login ul li:nth-child(1) {
+    padding-right: 10px;
+    border-right: 2px solid rgb(247, 247, 247);
+}
+
+nav menu .login ul li:nth-child(2) {
+    padding-left: 10px;
+}
+
+.section-1 {
+    width: 1300px;
+    height: 610px;
+    color: rgb(247, 247, 247);
+    margin: auto;
+}
+
+.section-1 header {
+    width: 700px;
+    margin-top: 230px;
+}
+
+.section-1 header h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.section-1 header h2 {
+    font-size: 58px;
+    margin-bottom: 35px;
+    line-height: 75px;
+}
+
+.section-1 header p {
+    font-size: 15px;
+    width: 120px;
+    border: 1px solid rgb(247, 247, 247);
+    border-radius: 50px;
+    text-align: center;
+    padding: 13px 25px;
+}
+
+.icon {
+    width: 130px;
+    margin: 230px auto;
+    overflow: hidden;
+}
+
+.icon ul li {
+    float: left;
+    margin: 0 10px;
+    list-style: none;
+}
+
+.icon ul li:nth-child(3), .icon ul li:nth-child(4) {
+    opacity: 30%;
+}
+
+main .section-2, main .section-5 {
+    width: 100%;
+    background-image: url(./img/10.png);
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+
+main .section-2 header, main .section-5 header {
+    width: 1300px;
+    margin: auto;
+    padding-top: 210px;
+    color: rgb(66, 66, 66);
+    
+}
+
+main .section-2 header h2, main .section-5 header h2 {
+    font-size: 43px;
+    margin-bottom: 20px;
+    line-height: 65px;
+    font-weight: lighter;
+}
+
+main .section-2 header p, main .section-5 header p {
+    font-size: 17px;
+    color: rgb(66, 66, 66);
+    font-weight: bolder;
+}
+
+main .section-2 article {
+    width: 1300px;
+    margin: auto;
+    overflow: hidden;
+    color: rgb(66, 66, 66);
+}
+
+main .section-2 article div {
+    float: left;
+    margin-top: 50px;
+    margin-right: 47px;
+}
+
+main .section-2 article div p:nth-child(1) {
+    font-size: 17px;
+}
+
+main .section-2 article div p:nth-child(2) {
+    font-size: 30px;
+    color: rgb(33, 223, 161);
+}
+
+main .section-2 article div p:nth-child(1) b, main .section-2 article div p:nth-child(2) b, .section-3 article div p:nth-child(2) b, .section-4 article div p:nth-child(2) b {
+    font-size: 45px;
+    color: rgb(31, 214, 153);
+    
+}
+
+
+main .section-3 {
+    width: 100%;
+    background-image: url(./img/5.png);
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+main .section-4 {
+    width: 100%;
+    background-image: url(./img/7.png);
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+main .section-3 header, main .section-4 header {
+    width: 1300px;
+    margin: auto;
+    padding-top: 210px;
+    color: rgb(247, 247, 247);
+    overflow: hidden;
+}
+
+main .section-3 header div, main .section-4 header div {
+    float: right;
+}
+
+main .section-3 header div h2, main .section-4 header div h2 {
+    font-size: 43px;
+    margin-bottom: 20px;
+    line-height: 65px;
+    font-weight: lighter;
+}
+
+main .section-3 header div p, main .section-4 header div p {
+    font-size: 17px;
+    color: rgb(247, 247, 247);
+    font-weight: bolder;
+    
+}
+
+main .section-3 article, main .section-4 article {
+    overflow: hidden;
+    color: rgb(247, 247, 247);
+}
+
+main .section-3 article div, main .section-4 article div {
+    float: right;
+    margin-top: 50px;
+    margin-right: 545px;
+}
+
+main .section-3 article div p:nth-child(1), main .section-4 article div p:nth-child(1) {
+    font-size: 17px;
+}
+
+main .section-3 article div p:nth-child(2), main .section-4 article div p:nth-child(2) {
+    font-size: 30px;
+    color: rgb(31, 214, 153);
+}
+
+.contents {
+    margin: 200px auto;
+}
+
+.contents header {
+    width: 1300px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contents header h2 {
+    float: left;
+    font-size: 45px;
+    margin-right: 80px;
+}
+
+.contents header h3 {
+    float: left;
+    font-size: 43px;
+    margin-right: 80px;
+    font-weight: lighter;
+    color: lightslategray;
+}
+
+.contents section .img {
+    width: 1300px;
+    margin: 25px auto 40px;
+}
+
+.contents section .img img {
+    margin-right: 20px;
+}
+
+.contents section .th-text {
+    width: 1300px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contents section .th-text .text {
+    float: left;
+    width: 400px;
+    margin-right: 25px;
+}
+
+.contents section .th-text .text p:nth-child(1) {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contents section .th-text .text p:nth-child(2) {
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+}
+
+footer {
+    background-color: #131b34;
+    color: rgb(247, 247, 247);
+}
+
+footer div {
+    width: 1300px;
+    margin: 0 auto 80px;
+    overflow: hidden;
+}
+
+footer div .f-img {
+    float: left;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+footer div address {
+    float: left;
+    margin-top: 40px;
+    font-size: 14px;
+    font-style: none;
+}
+
+footer div .lnb {
+    float: right;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 35px;
+    color: rgb(172, 172, 172);
+    font-weight: bold;
+}
+
+footer div .lnb ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+footer div .sns {
+    float: right;
+}
+
+footer div .sns ul li {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+
+footer .copyright {
+    clear: both;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(172, 172, 172);
+    opacity: 40%;
+}
+
+hr {
+    width: 1300px;
+    margin: auto;
+    opacity: 10%;
+}
