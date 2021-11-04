@@ -1,11 +1,15 @@
 * {
-    padding: 0;
     margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
     font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .main-header {
-    width: 100%;
+    width: 1900px;
+    height: 1000px;
     background-image: url(./img/3.png);
     background-position: center;
     background-size: cover;
@@ -18,8 +22,8 @@ nav {
 menu {
     overflow: hidden;
     height: 100px;
-    width: 1800px;
-    margin: 0 auto;
+    width: 1900px;
+    margin: 0;
 }
 
 nav img {
@@ -113,7 +117,7 @@ nav menu .login ul li:nth-child(2) {
 }
 
 main .section-2, main .section-5 {
-    width: 100%;
+    width: 1900px;
     background-image: url(./img/10.png);
     background-position: bottom;
     background-size: cover;
@@ -172,7 +176,7 @@ main .section-2 article div p:nth-child(1) b, main .section-2 article div p:nth-
 
 
 main .section-3 {
-    width: 100%;
+    width: 1900px;
     background-image: url(./img/5.png);
     background-position: bottom;
     background-size: cover;
@@ -180,7 +184,7 @@ main .section-3 {
 }
 
 main .section-4 {
-    width: 100%;
+    width: 1900px;
     background-image: url(./img/7.png);
     background-position: bottom;
     background-size: cover;
@@ -221,7 +225,7 @@ main .section-3 article, main .section-4 article {
 main .section-3 article div, main .section-4 article div {
     float: right;
     margin-top: 50px;
-    margin-right: 545px;
+    margin-right: 730px;
 }
 
 main .section-3 article div p:nth-child(1), main .section-4 article div p:nth-child(1) {
@@ -234,7 +238,12 @@ main .section-3 article div p:nth-child(2), main .section-4 article div p:nth-ch
 }
 
 .contents {
-    margin: 200px auto;
+    width: 1900px;
+    margin: 200px 0;
+}
+
+.contents .a {
+    width: 1900px;
 }
 
 .contents header {
@@ -291,6 +300,7 @@ main .section-3 article div p:nth-child(2), main .section-4 article div p:nth-ch
 
 footer {
     background-color: #131b34;
+    width: 1900px;
     color: rgb(247, 247, 247);
 }
 
