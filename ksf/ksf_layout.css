@@ -225,6 +225,18 @@ main .section-3 article, main .section-4 article {
 main .section-3 article div, main .section-4 article div {
     float: right;
     margin-top: 50px;
+    margin-right: 545px;
+}
+
+main .section-3 article div {
+    float: right;
+    margin-top: 50px;
+    margin-right: 545px;
+}
+
+main .section-4 article div {
+    float: right;
+    margin-top: 50px;
     margin-right: 730px;
 }
 
