@@ -1,0 +1,48 @@
+.page-header {
+    width: 1352px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.logo-img {
+    width: 205px;
+    height: 61px;
+    background-color: black;
+}
+
+.gnb {
+    display: flex;
+    padding: 24px;
+}
+
+.gnb li {
+    padding: 11px 48px;
+}
+
+
+.search {
+    position: relative;
+}
+
+.search-bar {
+    padding: 11px 80px;
+    margin: 0 -4px;
+    border: 2px solid black;
+}
+
+.search-icon {
+    position: absolute;
+    background-color: white;
+    padding: 9px 2px;
+    left: 88%;
+}
+
+.info {
+    background-color: #83BFFF;
+}
