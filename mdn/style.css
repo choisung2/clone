@@ -1,48 +1,113 @@
-.page-header {
-    width: 1352px;
-    margin: 0 auto;
-}
+input::-ms-clear,
+input::-ms-reveal {display: none; width : 0; height: 0;}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
 
-.nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 36px;
-}
+/*  */
 
-.logo-img {
-    width: 205px;
-    height: 61px;
-    background-color: black;
+body {
+    color:#1b1b1b;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .gnb {
+    max-width: 1400px;
     display: flex;
-    padding: 24px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 36px 24px 24px;
 }
 
-.gnb li {
-    padding: 11px 48px;
+.gnb .img-logo {
+    width: 211px;
 }
 
+.gnb .menu {
+    width: 715px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gnb .menu li {
+    padding: 12px 0;
+}
+
+.gnb .menu img {
+    margin-right: 10px;
+    width: 12px;
+    transform: rotate(-30deg);
+}
 
 .search {
     position: relative;
 }
 
-.search-bar {
-    padding: 11px 80px;
-    margin: 0 -4px;
+.search .search-bar {
+    width: 329px;
+    height: 24px;
+    font-size: 16px;
+    padding: 6px 12px;
     border: 2px solid black;
+    box-sizing: content-box;
 }
 
-.search-icon {
+.search .search-icon {
     position: absolute;
-    background-color: white;
-    padding: 9px 2px;
-    left: 88%;
+    width: 24px;
+    height: 24px;
+    top: 20%;
+    left: 90%;
 }
 
 .info {
     background-color: #83BFFF;
+    text-align: center;
+}
+
+.info .info-txt {
+    font-size: 39px;
+    color: white;
+    background-color: black;
+    padding: 5px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin: 75px 0 48px;
+}
+
+.info .info-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 1023px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    position: relative;
+}
+
+.info .info-menu li {
+    width: 255px;
+    padding: 12px;
+    border-bottom: 2px solid black;
+    text-align: start;
+}
+
+.info .info-menu li::after {
+    position: absolute;
+    content: '';
+    background-image: url('./img/arrow.svg');
+    width: 16px;
+    height: 16px;
+    transform: rotate(90deg);
+    top: 10%;
+    display: block;
+    margin-left: 245px;
+}
+
+.wrap {
+    max-width: 1400px;
+    margin: 48px auto;
+    display: flex;
 }

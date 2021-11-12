@@ -11,31 +11,116 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="page-header">
+    <header>
         <h1 class="sr-only">MDN Web Docs</h1>
-        <nav class="nav">
-            <a href="#"><div class="logo-img"></div></a>
-            <ul class="gnb">
-                <li><a href="#">▶ Technologies</a></li>
-                <li><a href="#">▶ References & Guides</a></li>
-                <li><a href="#">▶ Feedback</a></li>
+        <nav class="gnb">
+            <a href="#"><img src="./img/MDN_Web_Docs_01.svg" alt="" class="img-logo"></a>
+            <h2 class="sr-only">Main Menu</h2>
+            <ul class="menu">
+                <li><a href="#"><img src="./img/triangle.svg" alt="">Technologies</a></li>
+                <li><a href="#"><img src="./img/triangle.svg" alt="">References & Guides</a></li>
+                <li><a href="#"><img src="./img/triangle.svg" alt="">Feedback</a></li>
             </ul>
             <form class="search" action="">
-                <input class="search-bar" type="search" placeholder="Site search... (Press '/'' to fucus)">
-                <input class="search-icon" type="submit">
+                <label for="search" class="sr-only">Search</label>
+                <input id="search" class="search-bar" type="search" placeholder="Site search... (Press '/'' to fucus)">
+                <input class="search-icon" type="image" src="img/search.svg">
             </form>
         </nav>
     </header>
     <main>
         <section class="info">
-            <h2 class="sr-only">Info</h2>
-            <span>Resources for developers, by developers.</span>
-            <ul>
-                <li><a href="">Web Technologies</a></li>
-                <li><a href="">Learn Web Development</a></li>
-                <li><a href="">Developer Tools</a></li>
+            <h2 class="sr-only">Information</h2>
+            <strong class="info-txt">Resources for developers, by developers.</strong>
+            <ul class="info-menu">
+                <li><a href="#">Web Technologies</a></li>
+                <li><a href="#">Learn Web Development</a></li>
+                <li><a href="#">Developer Tools</a></li>
             </ul>
         </section>
+        <div class="wrap">
+            <section class="blog">
+                <h2>Hacks Blog</h2>
+                <a href="#">Read more at hacks.mozilla.org</a>
+                <article>
+                    <em>Hacks Decoded: Thomas Park, Founder of Codepip</em>
+                    <p>Welcome to our Hacks: Decoded Interview series! We spoke with Thomas Park over email about coding, his
+                        favourite apps
+                        and his past life at Mozilla. Thomas is the founder of Codepip, a platform he created for coding games that
+                        helps people
+                        learn HTML, CSS, JavaScript, etc. The most popular game is Flexbox Froggy.The post Hacks Decoded: Thomas
+                        Park, Founder
+                        of Codepip appeared first on Mozilla Hacks - the Web developer blog.</p>
+                    <small>Posted Wednesday, October 20, 2021 by Xavier Harding</small>
+                </article>
+                <article>
+                    <em>Lots to see in Firefox 93!</em>
+                    <p>Firefox 93 comes with lots of lovely updates including AVIF image format support, filling of XFA-based forms
+                        in its PDF
+                        viewer and protection against insecure downloads by blocking downloads relying on insecure connections.The
+                        post Lots to
+                        see in Firefox 93! appeared first on Mozilla Hacks - the Web developer blog.</p>
+                    <small>Posted Friday, October 8, 2021 by Ruth John</small>
+                </article>
+                <article>
+                    <em>Implementing form filling and accessibility in the Firefox PDF viewer</em>
+                    <p>Last year, during lockdown, many discovered the importance of PDF forms when having to deal remotely with
+                        administrations and large organizations like banks. Firefox supported displaying PDF forms, but it didn’t
+                        support
+                        filling them: users had to print them, fill them by hand, and scan them back to digital form. We decided it
+                        was time to
+                        reinvest in the PDF viewer (PDF.js) and support filling PDF forms within Firefox to make our users' lives
+                        easier.The
+                        post Implementing form filling and accessibility in the Firefox PDF viewer appeared first on Mozilla Hacks -
+                        the Web
+                        developer blog.</p>
+                    <small>Posted Thursday, October 7, 2021 by bdahl</small>
+                </article>
+                <article>
+                    <em>Control your data for good with Rally</em>
+                    <p>In a world where data and AI are reshaping society, people currently have no tangible way to put their data
+                        to work for
+                        the causes they believe in. To address this, we built the Rally platform, a first-of-its-kind tool that
+                        enables you to
+                        contribute your data to specific studies and exercise consent at a granular level. Mozilla Rally puts you in
+                        control of
+                        your data while building a better Internet and a better society. The post Control your data for good with
+                        Rally appeared
+                        first on Mozilla Hacks - the Web developer blog.</p>
+                    <small>Posted Wednesday, October 6, 2021 by Melissa Thermidor</small>
+                </article>
+                <article>
+                    <em>Posted Wednesday, October 6, 2021 by Melissa Thermidor</em>
+                    <p>Starting with Firefox 93, Firefox will monitor available system memory and, should it ever become so
+                        critically low that
+                        a crash is imminent, Firefox will respond by unloading memory-heavy but not actively used tabs. This feature
+                        is
+                        currently enabled on Windows and will be deployed later for macOS and Linux as well.The post Tab Unloading
+                        in Firefox 93
+                        appeared first on Mozilla Hacks - the Web developer blog.</p>
+                    <small>Posted Tuesday, October 5, 2021 by Haik Aftandilian</small>
+                </article>
+            </section>
+            <asid class="help-menu">
+                <h2>Help improve MDN Web Docs</h2>
+                <p>All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick
+                    one of
+                    these ways to help:</p>
+                <a href="#">Getting started</a>
+                <a href="#">Contributing to MDN content</a>
+                <a href="#">Contributing to MDN content</a>
+                <a href="#">Updating browser compatibility data</a>
+            </aside>
+        </div>
     </main>
+    <footer>
+        <img src="" alt="">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </footer>
 </body>
 </html>
