@@ -350,6 +350,11 @@ input::-webkit-search-results-decoration { display: none; }
         min-width: 70%;
     }
 
+    .info .info-menu a:hover::after {
+        top: 13px;
+        left: 95.5%;
+    }
+
     .search-icon {
         left: 69%;
     }
