@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+#page-header {
+    position: relative;
+}   
+
+.header-wrap {
+    width: calc(100% - 240px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 340px 422px;
+}
+
+.header-wrap::before, .header-wrap::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    top: 40px;
+    left: 0;
+    border-bottom: 1px solid #BCBCBC;
+}
+
+
+ .header-wrap::after {
+    top: 80px;
+}
+
+.logo {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.top-gnb {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.top-gnb li {
+    position: relative;
+}
+
+.top-gnb li a:hover {
+    color: #002bd2;
+}
+
+.top-gnb li:first-child {
+    margin-left: 50px;
+}
+
+.top-gnb .icon-comp, .top-gnb .icon-cart {
+    margin-left: 14px;
+    font-size: 12px;
+}
+
+
+.top-gnb .icon-comp::before, .top-gnb .icon-cart::before {
+    position: absolute;
+    content: '';
+    background-image: url('./src/compare.png');
+    background-size: 14px;
+    width: 14px;
+    height: 14px;
+    top: 0;
+    left: -18px;
+}
+
+.top-gnb .icon-cart::before {
+    background-image: url('./src/cart.png');
+}
+
+.top-gnb .icon-comp:hover::before {
+    background-image: url('./src/compare_hover.png');
+}
+
+.top-gnb .icon-cart:hover::before {
+    background-image: url('./src/cart_hover.png');
+}
+
+.search-form {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+    height: 40px;
+    border-left: 1px solid #BCBCBC;
+    border-right: 1px solid #BCBCBC;
+    line-height: 38px;
+}
+
+.search-form:hover {
+    background-color: #EEEEEE;
+}
+
+.search-form #search-input {
+    width: 220px;
+    padding: 0;
+    margin: 0 30px 0 20px;
+    border-radius: 2px;
+    border: none;
+    background: transparent;
+    
+}
+
+.search-form #search-btn {
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.search-form #search-btn:hover {
+    color: #002bd2;
+}
+
+.gnb {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.gnb .navi {
+    display: flex;
+}
