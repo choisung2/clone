@@ -10,31 +10,30 @@
 </head>
 <body>
     <header id="page-header">
-        <div class="header-wrap">
-            <h1 class="logo"><img src="" alt="SIDIZ"></h1>
-            <ul class="top-gnb">
+        <h1 class="txt-hide">SIDIZ</h1>
+        <section class="top-gnb">
+            <form action="#" method="get" class="search-form">
+                <label for="search-input" class="txt-hide">검색</label>
+                <input type="text" id="search-input">
+                <label for="search-btn"></label>
+                <input type="submit" id="search-btn" value="SEARCH">
+            </form>
+            <ul class="top-util">
                 <li><a href="javascript:void(0)">로그인</a></li>
                 <li><a href="javascript:void(0)">회원가입</a></li>
                 <li><a href="javascript:void(0)">이벤트</a></li>
                 <li class="icon-comp"><a href="javascript:void(0)">비교하기</a></li>
                 <li class="icon-cart"><a href="javascript:void(0)">장바구니</a></li>
             </ul>
-            <form action="#" method="get" class="search-form">
-                <label for="search-input" class="txt-hide">검색</label>
-                <input type="text" id="search-input">
-                <label for="search-btn"></label>
-                <input type="submit" id="search-btn" value="SEARCH">
-                <label for="search" class="txt-hide">검색</label>
-                        <input type="search" id="search">
-            </form>
-            <nav class="gnb">
-                <ul class="navi">
-                    <li>ABOUT SIDIZ</li>
-                    <li>PRODUCTS</li>
-                    <li>SUPPORT</li>
-                </ul>
-            </nav>
-        </div>
+        </section>
+        <nav class="gnb">
+            <a href="javascript:void(0)"><img src="./src/logo.png" alt=""></a>
+            <ul class="gnb-util">
+                <li><a href="javascript:void(0)">ABOUT SIDIZ</a></li>
+                <li><a href="javascript:void(0)">PRODUCTS</a></li>
+                <li><a href="javascript:void(0)">SUPPORT</a></li>
+            </ul>
+        </nav>
     </header>
     <main></main>
     <footer></footer>
