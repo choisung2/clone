@@ -128,49 +128,37 @@
     position: relative;
 }
 
+.gnb .gnb-menu-item {
+    height: 60px;
+    line-height: 60px;
+}
+
 .gnb .gnb-menu-item:nth-child(2) {
     margin: 0 60px;
+}
+
+.gnb .gnb-menu-tit{
+    cursor: text;
 }
 
 .gnb .gnb-menu-tit:hover {
     color: #002bd2;
 }
 
+.gnb-menu-list {
+    line-height: initial;
+}
 .gnb .gnb-menu-item:first-child .gnb-menu-list li:nth-child(3) {
     margin-top: 35px; 
     font-size: 15px;
     font-weight: 700;
 }
 
-.gnb-menu-drop {
-    position: absolute;
-    display: block;
-    width: 30%;
-    height: 40px;
-    top: 100%;
-    /* border: 1px solid black; */
-}
-
-.gnb-menu-list .gnb-menu-1 {
-    display: flex;
-}
-
-.gnb-menu-1 em{
-    flex-basis: 30%;
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.gnb-menu-1 a:not(em a) {
-    margin-right: 15px;
-    font-size: 14px;
-}
-
 .gnb-menu-list {
     position: absolute;
     display: none;
-    top: 21px;
+    box-sizing: border-box;
+    top: 60px;
     padding: 30px 30px 10px 30px;
     font-size: 14px;
     font-weight: 500;
@@ -181,36 +169,57 @@
 }
 
 .gnb .gnb-menu-item:first-child .gnb-menu-list {
-    width: 100%;
+    width: 165px;
     transform: translate(-20%, 0);
-    /* display: block; */
 }
 
 .gnb .gnb-menu-item:nth-child(2) .gnb-menu-list {
-    width: 635px;
-    /* display: block; */
+    width: 695px;
     transform: translate(-51.5%, 0);
 }
 
 .gnb .gnb-menu-item:last-child .gnb-menu-list {
-    width: 100%;
-    /* display: block; */
-    transform: translate(-20%, 0);
-}
-
-
-.gnb-menu-list li {
-    margin-bottom: 17px;
-}
-
-.gnb-menu-list li a {
-    color: white;
-}
-
-.gnb-menu-list li a:hover {
-    color: #1A59FF;
+    width: 195px;
+    transform: translate(-22%, 0);
 }
 
 .gnb .gnb-menu-item:hover .gnb-menu-list {
     display: block;
 }
+
+.gnb .gnb-menu-item:nth-child(2) .gnb-menu-list::after {
+    position: absolute;
+    content: '';
+    top: 5%;
+    left: 27%;
+    height: 90%;
+    border-right: 1px solid #444444;
+}
+
+.gnb-menu-list li {
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.gnb .gnb-menu-list li a {
+    color: white;
+}
+
+.gnb .gnb-menu-list li a:hover {
+    color: #1A59FF;
+}
+
+.gnb-menu-list .gnb-menu-product em{
+    flex-basis: 30%;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.gnb-menu-list .gnb-menu-product a:not(em a) {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+
+
