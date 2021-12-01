@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>kakao_prac</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+</head>
+<body>
+    <header id="page-header">
+        <div class="header-wrap">
+            <h1 class="logo">
+                <a href="#"><img src="./src/logo.png" alt="키키오" class="logo-img"></a>
+            </h1>
+            <nav class="gnb">
+                <h2 class="sr-only">메인 메뉴</h2>
+                <ul class="menu">
+                    <li><a href="#">키키오</a></li>
+                    <li><a href="#">뉴스</a></li>
+                    <li><a href="#">기술과 서비스</a></li>
+                    <li><a href="#">약속과 책임</a></li>
+                </ul>
+            </nav>
+            <ul class="util">
+                <li><button><i class="bi bi-search"></i></button></li>
+                <li><button><i class="bi bi-globe2"></i></button></li>
+                <li><button><i class="bi bi-moon"></i></button></li>
+                <li><button><i class="bi bi-emoji-wink"></i></button></li>
+            </ul>
+        </div>
+    </header>
+    <main id="page-main">
+        <section class="tit-main">
+            <h2 class="sr-only">홈 본문</h2>
+            <div class="tit">
+                <img src="./src/month.gif" alt="">
+                <h3>오늘의 키키오<h3>
+            </div>
+            <p class="txt-today">11월 23일 화요일 소식<span class="txt-today-short">입니다</span></p>
+        </section>
+        <section class="cont-wrap">
+            <h2 class="sr-only">메인 뉴스</h2>
+            <div class="item-wrap big-item-wrap">
+                <article class="item item-big item-sticky">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/megaphone.svg" alt="">
+                            <span class="txt-box txt-new">보도자료</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">키키오엔터테인먼트, 키키시 주최 '2021 키키웹툰공모전 단독 후원사로 참여</strong>
+                        <div class="item-img"></div>
+                    </a>
+                    <span class="item-tag">#키키오엔터테인먼트 #키키오페이지 #키키시</span>
+                    <button><i class="bi bi-three-dots-vertical"></i></button>
+                </article>
+            </div>
+            <div class="item-wrap"> 
+                <article class="item item-mid">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/megaphone.svg" alt="">
+                            <span class="txt-box">보도자료</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">키키오재팬, 키키오픽코마로 사명 변경하고 프랑스 진출...</strong>
+                        <div class="item-img"></div>
+                    </a>
+                    <span class="item-tag">#글로벌진출 #키키오재팬</span>
+                    <button><i class="bi bi-three-dots-vertical"></i></button>
+                </article>
+                <article class="item item-mid">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/chart.svg" alt="">
+                            <span class="txt-box">투자정보</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">2021년 3분기 실적발표</strong>
+                        <div class="item-img"></div>
+                    </a>
+                    <span class="item-tag">#키키오 실적 #키키오 3분기 실적</span>
+                    <button><i class="bi bi-three-dots-vertical"></i></button>
+                </article>
+                <article class="item item-small">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/chart.svg" alt="">
+                            <span class="txt-box">주가정보</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-stock">125,000</strong>
+                        <span class="item-tag">2021.11.08 21:01PM</span>
+                    </a>
+                </article>
+                <article class="item item-mid">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/megaphone.svg" alt="">
+                            <span class="txt-box">보도자료</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">키키오, 2021년 3분기 연결 매출 1조7,408억원...</strong>
+                        <div class="item-img"></div>
+                    </a>
+                    <span class="item-tag">#키키오 실적 #키키오 3분기 실적</span>
+                    <button><i class="bi bi-three-dots-vertical"></i></button>
+                </article>
+                <article class="item item-small">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/responsible.svg" alt="">
+                            <span class="txt-box">약속과책임</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">키키오는 당신과 함께 더 나은 세상을 만듭니다.</strong>
+                    </a>
+                    <span class="item-tag">#약속과책임 #esg #소셜임팩트</span>
+                </article>
+            </div>
+        </section>
+        <section class="culture-wrap">
+            <strong class="culture-txt">기술과 사람으로 <br> 더 나은 세상을 만듭니다.</strong>
+            <button class="culture-btn">
+                키키오문화 바로가기
+                <i class="bi bi-arrow-right-short"></i>
+            </button>
+            <div class="culture-img"></div>
+        </section>
+        <section class="cont-wrap cont-flex">
+            <div class="item-wrap item-wrap-long mid-item-wrap">
+                <article class="item item-small">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/customer.svg" alt="">
+                            <span class="txt-box">고객센터</span>
+                        </div>
+                    </div>
+                    <strong class="item-help">어떤 서비스를 도와드릴까요?</strong>
+                    <ul class="item-site">
+                        <li><a href="#">카카오</a></li>
+                        <li><a href="#">다음</a></li>
+                        <li><a href="#">멜론</a></li>
+                    </ul>
+                </article>
+                <article class="item item-mid">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/megaphone.svg" alt="">
+                            <span class="txt-box">보도자료</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">키키오브레인, AI 주니어 육성 프로그램 1기 모집</strong>
+                        <div class="item-img"></div>
+                    </a>
+                    <span class="item-tag">#키키오브레인 #ai #채용</span>
+                    <button><i class="bi bi-three-dots-vertical"></i></button>
+                </article>
+                <article class="item item-mid">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/megaphone.svg" alt="">
+                            <span class="txt-box">보도자료</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">키키오, 한국기업지배구조원 ESG경영 평가 A등급 획득</strong>
+                        <div class="item-img"></div>
+                    </a>
+                    <span class="item-tag">###ESG ###ESG경영</span>
+                    <button><i class="bi bi-three-dots-vertical"></i></button>
+                </article>
+                <article class="item item-mid">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/megaphone.svg" alt="">
+                            <span class="txt-box">보도자료</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">키키오, 한국기업지배구조원 ESG경영 평가 A등급 획득</strong>
+                        <div class="item-img"></div>
+                    </a>
+                    <span class="item-tag">###ESG ###ESG경영</span>
+                    <button><i class="bi bi-three-dots-vertical"></i></button>
+                </article>
+                <article class="item item-mid">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/megaphone.svg" alt="">
+                            <span class="txt-box">보도자료</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">키키오, 한국기업지배구조원 ESG경영 평가 A등급 획득</strong>
+                        <div class="item-img"></div>
+                    </a>
+                    <span class="item-tag">###ESG ###ESG경영</span>
+                    <button><i class="bi bi-three-dots-vertical"></i></button>
+                </article>
+                <article class="item item-small">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/lock.svg" alt="">
+                            <span class="txt-box">키키오 프라이버시</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">데이터의 연결과 보호의 균형을 위한 키키오의 노력</strong>
+                    </a>
+                    <span class="item-tag">#키키오프라이버시</span>
+                </article>
+            </div>
+            <div class="item-wrap item-wrap-long big-item-wrap">
+                <article class="item item-big item-sticky">
+                    <div class="item-info">
+                        <div class="item-type">
+                            <img src="./src/megaphone.svg" alt="">
+                            <span class="txt-box">보도자료</span>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <strong class="item-tit">키키오, 'if(kikio) 2021' 컨퍼런스 개최 앞서 공식 홈페이지에 세션 공개</strong>
+                        <div class="item-img"></div>
+                    </a>
+                    <span class="item-tag">#키키오 #이프키키오 #컨퍼런스 #세션공개</span>
+                    <button><i class="bi bi-three-dots-vertical"></i></button>
+                </article>
+            </div>
+        </section>
+        <section class="etc-wrap">
+            <article class="etc-item etc-service">
+                <a href="#" class="etc-link">
+                    <strong class="etc-tit">사람과 기술로 일상을 돕는 카카오 서비스</strong>
+                    <span class="etc-box">
+                        서비스 바로가기
+                        <i class="bi bi-arrow-right-short"></i>
+                    </span>
+                </a>
+            </article>
+            <article class="etc-item etc-talent">
+                <a href="#" class="etc-link etc-link-blue">
+                    <strong class="etc-tit">세상만사에 관심이 많다면, 당신은 이미 카카오 크루</strong>
+                    <span class="etc-box">
+                        인재영입 바로가기
+                        <i class="i-arr bi bi-arrow-right-short"></i>
+                    </span>
+                </a>
+            </article>
+        </section>
+        <a href="javascript:void(0)" class="collection-news">키키오 소식 모아보기</a>
+        <a href="#page-header" class="top-btn"><i class="bi bi-arrow-right-short"></i></a>
+    </main>
+    <footer id="page-footer">
+        <div class="inner-footer">
+            <section class="fnb">
+                <h2 class="sr-only">하단 메뉴</h2>
+                <div class="fnb-menu">
+                    <a href="javascript:void(0)" class="fnb-tit">키키오</a>
+                    <ul class="fnb-list">
+                        <li><a href="javascript:void(0)">문화</a></li>
+                        <li><a href="javascript:void(0)">공동체</a></li>
+                        <li><a href="javascript:void(0)">히스토리</a></li>
+                    </ul>
+                </div>
+                <div class="fnb-menu">
+                    <a href="javascript:void(0)" class="fnb-tit">뉴스</a>
+                </div>
+                <div class="fnb-menu">
+                    <a href="javascript:void(0)" class="fnb-tit">기술과 서비스</a>
+                    <ul class="fnb-list">
+                        <li><a href="javascript:void(0)">기술</a></li>
+                        <li><a href="javascript:void(0)">서비스</a></li>
+                    </ul>
+                </div>
+                <div class="fnb-menu">
+                    <a href="javascript:void(0)" class="fnb-tit">약속과 책임</a>
+                    <ul class="fnb-list">
+                        <li><a href="javascript:void(0)">ESG</a></li>
+                        <li><a href="javascript:void(0)">소셜임팩트</a></li>
+                        <li><a href="javascript:void(0)">디지털 권리</a></li>
+                        <li><a href="javascript:void(0)">AI 윤리</a></li>
+                    </ul>
+                </div>
+                <div class="fnb-menu">
+                    <a href="javascript:void(0)" class="fnb-tit">투자정보</a>
+                    <ul class="fnb-list">
+                        <li><a href="javascript:void(0)">기업지배구조</a></li>
+                        <li><a href="javascript:void(0)">주가정보</a></li>
+                        <li><a href="javascript:void(0)">재무정보</a></li>
+                        <li><a href="javascript:void(0)">IR행사</a></li>
+                        <li><a href="javascript:void(0)">공시정보</a></li>
+                        <li><a href="javascript:void(0)">공고</a></li>
+                    </ul>
+                </div>
+                <div class="fnb-menu">
+                    <div>
+                        <a href="javascript:void(0)" class="fnb-tit">고객센터</a>
+                        <ul class="fnb-list">
+                            <li class="fnb-ar"><a href="javascript:void(0)">키키오 고객센터<i
+                                        class="i-arr bi bi-arrow-right-short"></i></a></li>
+                            <li><a href="javascript:void(0)" class="fnb-ar">디귿 고객센터<i class="i-arr bi bi-arrow-right-short"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0)" class="fnb-tit-single fnb-ar">인재영입<i class="i-arr bi bi-arrow-right-short"></i></a>
+                    <a href="javascript:void(0)" class="fnb-tit-single fnb-ar">키키오계정<i
+                            class="i-arr bi bi-arrow-right-short"></i></a>
+                </div>
+            </section>
+            <section class="policy">
+                <h2 class="sr-only">정책</h2>
+                <div class="policy-wrap">
+                    <ul class="policy-list">
+                        <li class="policy-item">
+                            <button>이용약관<i class="bi bi-chevron-up"></i></button>
+                            <ul class="none">
+                                <li>계정 서비스</li>
+                                <li>키키오 서비스</li>
+                                <li>디귿 서비스</li>
+                            </ul>
+                        </li>
+                        <li class="policy-item">
+                            <button>위치기반서비스이용약관<i class="bi bi-chevron-up"></i></button>
+                            <ul class="none">
+                                <li>키키오 서비스</li>
+                                <li>디귿 서비스</li>
+                            </ul>
+                        </li>
+                        <li class="policy-item">
+                            <button>개인정보처리방침<i class="bi bi-chevron-up"></i></button>
+                            <ul class="none">
+                                <li>기업사이트</li>
+                                <li>키키오 서비스</li>
+                                <li>디귿 서비스</li>
+                            </ul>
+                        </li>
+                        <li class="policy-item">
+                            <a href="javascript:void(0)">운영정책</a>
+                        </li>
+                        <li class="policy-item">
+                            <button>청소년보호정책<i class="bi bi-chevron-up"></i></button>
+                            <ul class="none">
+                                <li>키키오 서비스</li>
+                                <li>디귿 서비스</li>
+                            </ul>
+                        </li>
+                        <li class="policy-item">
+                            <a href="javascript:void(0)">권리침해신고안내</a>
+                        </li>
+                        <li class="policy-item">
+                            <button>공지사항<i class="bi bi-chevron-up"></i></button>
+                            <ul class="none">
+                                <li>기업사이트</li>
+                                <li>키키오 서비스</li>
+                                <li>디귿 서비스</li>
+                            </ul>
+                        </li>
+                        <li class="policy-item">
+                            <a href="javascript:void(0)">사이버윤리실</a>
+                        </li>
+                        <li class="policy-item">
+                            <a href="javascript:void(0)">Contact Us</a>
+                        </li>
+                    </ul>
+                    <button class="family-site-btn">관련사이트</button>
+                </div>
+                
+                <small class="copyright">© Kikiki Corp. All rights reserved.</small>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
