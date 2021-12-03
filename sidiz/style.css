@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 
 body {
-    height: 200vh;
+    height: 500vh;
 }
 
 
@@ -371,4 +371,66 @@ body {
     transform: rotate(45deg);
     top: 12px;
     right: 0;
+}
+
+/*  */
+
+.task {
+    font-family: 'Noto Sans KR', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.task .task-wrap {
+    width: 1220px;
+    margin: 80px auto 0;
+}
+
+.task .task-txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.task-txt .task-tit {
+    font-size: 34px;
+    line-height: 44px;
+}
+
+.task-txt .task-link {
+    font-size: 13px;
+    color: #002BD2;
+}
+
+.task-txt .task-link:hover {
+    text-decoration: underline;
+}
+
+.task .task-list {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 1800px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.task .task-list a {
+    display: block;
+}
+
+.task .task-list strong {
+    width: 100%;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    margin: 30px 0 10px;
+}
+
+.task .task-list p {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 80px;
 }
