@@ -420,6 +420,10 @@ body {
     display: block;
 }
 
+.task .task-list a:hover {
+    filter: opacity(90%);
+}
+
 .task .task-list strong {
     width: 100%;
     display: inline-block;
