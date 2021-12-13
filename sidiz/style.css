@@ -375,38 +375,61 @@ body {
 
 /*  */
 
-.task {
+.task,
+.kids,
+.interior {
     font-family: 'Noto Sans KR', sans-serif;
     border-bottom: 1px solid black;
+    
 }
 
-.task .task-wrap {
+.kids,
+.interior {
+    border: none;
+}
+
+.task .task-wrap,
+.kids .kids-wrap,
+.interior .interior-wrap {
     width: 1220px;
     margin: 80px auto 0;
+    position: relative;
 }
 
-.task .task-txt {
+.kids .kids-wrap {
+    padding-bottom: 120px;
+}
+
+/* .task .task-txt {
     display: flex;
     justify-content: space-between;
     align-items: end;
-}
+} */
 
-.task-txt .task-tit {
+.task .task-tit,
+.kids .kids-tit,
+.interior .interior-tit {
     font-size: 34px;
     line-height: 44px;
 }
 
-.task-txt .task-link {
+.task .task-link,
+.kids .kids-link,
+.interior .interior-link {
+    position: absolute;
     font-size: 13px;
     color: #002BD2;
+    top: 20px;
+    right: 0;
 }
 
-.task-txt .task-link:hover {
+.task .task-link:hover,
+.kids .kids-link:hover,
+.interior .interior-link:hover {
     text-decoration: underline;
 }
 
 .task .task-list {
-    clear: both;
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -416,15 +439,21 @@ body {
     text-align: center;
 }
 
-.task .task-list a {
+.task .task-list a,
+.kids .kids-list a,
+.interior .interior-list a {
     display: block;
 }
 
-.task .task-list a:hover {
-    filter: opacity(90%);
+.task .task-list a:hover,
+.kids .kids-list a:hover,
+.interior .interior-list a:hover {
+    opacity: 80%;
 }
 
-.task .task-list strong {
+.task .task-list strong,
+.kids .kids-list strong,
+.interior .interior-list strong {
     width: 100%;
     display: inline-block;
     font-size: 50px;
@@ -433,8 +462,29 @@ body {
     margin: 30px 0 10px;
 }
 
-.task .task-list p {
+.task .task-list p,
+.kids .kids-list p,
+.interior .interior-list p {
     font-size: 24px;
-    line-height: 31px;
+    line-height: 30px;
     margin-bottom: 80px;
+}
+
+.kids .kids-list p {
+    margin-bottom: 0;
+}
+
+.kids .kids-list p,
+.interior .interior-list p {
+    font-size: 20px;
+}
+
+.kids .kids-list,
+.interior .interior-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* height: 1800px; */
+    margin-top: 40px;
+    text-align: center;
 }
