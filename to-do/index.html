@@ -9,14 +9,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>To-Do</h1>
+    <nav class="btn-wrap">
+      <button class="btn-basic">기본</button>
+      <button class="btn-basic">🌸</button>
+      <button class="btn-basic">✔</button>
+      <button class="btn-basic">🔥</button>
+      <button class="btn-plus">➕</button>
+    </nav>
+  </header>
   <section class="wrap">
     <form action="#" class="input-wrap">
-      <label for="list" class="label">addEventListener<br>insertAdjacentHTML<br>closest 정리하기</label>
+      <label for="list" class="label"></label>
       <input id="list" type="text">
+      <button type="button" class="submit">➕</button>
     </form>
     <p class="todo-count">할 일 목록: <span class="list-count">0</span>개</p>
     <ul id="todo-list"></ul>
   </section>
-  <script src="app.js"></script>
+  <script src="app01.js"></script>
 </body>
 </html>
