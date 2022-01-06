@@ -87,7 +87,7 @@ body {
 .top-gnb .top-util .icon-cart::before {
   position: absolute;
   content: "";
-  background-image: url("./src/compare.png");
+  background-image: url("./img/compare.png");
   background-size: 14px;
   width: 14px;
   height: 14px;
@@ -96,15 +96,15 @@ body {
 }
 
 .top-gnb .top-util .icon-cart::before {
-  background-image: url("./src/cart.png");
+  background-image: url("./img/cart.png");
 }
 
 .top-gnb .top-util .icon-comp:hover::before {
-  background-image: url("./src/compare_hover.png");
+  background-image: url("./img/compare_hover.png");
 }
 
 .top-gnb .top-util .icon-cart:hover::before {
-  background-image: url("./src/cart_hover.png");
+  background-image: url("./img/cart_hover.png");
 }
 
 .gnb {
@@ -292,7 +292,7 @@ body {
   height: 28px;
   top: 0;
   left: 72px;
-  background: url("./src/play.svg");
+  background: url("./img/play.svg");
 }
 
 .slide-contents .contents-video img {
@@ -599,7 +599,7 @@ body {
 .blog-txt span::before {
   content: "";
   position: absolute;
-  background: url("./src/blog.png");
+  background: url("./img/blog.png");
   width: 30px;
   height: 30px;
   top: 0;
@@ -793,11 +793,11 @@ body {
   left: 16px;
   width: 14px;
   height: 14px;
-  background: url("./src/store.svg");
+  background: url("./img/store.svg");
 }
 
 .ch-plugin .chat::before {
-  background: url("./src/kakao.svg");
+  background: url("./img/kakao.svg");
 }
 
 @media screen and (max-width: 1440px) {
