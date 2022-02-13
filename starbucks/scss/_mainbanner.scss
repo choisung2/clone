@@ -1,0 +1,50 @@
+.top-banner {
+  height: 646px;
+  background: url(../img/2022_Strawberry_main_bg.jpg) no-repeat center / cover;
+}
+
+.banner-inner {
+  max-width: 1130px;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  .inner-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 355px;
+    img {
+      padding-top: 60px;
+    }
+    a {
+      width: 129px;
+      margin-top: 40px;
+      color: $main-color;
+      border: 2px solid $main-color;
+      border-radius: 5px;
+      font-size: 15px;
+      line-height: 34px;
+      text-align: center;
+      letter-spacing: -2px;
+      box-sizing: border-box;
+    }
+  }
+  .banner-img {
+    img {
+      position: absolute;
+    }
+    img:first-child {
+      top: 13%;
+      left: 36.1%;
+    }
+    img:nth-child(2) {
+      top: 42%;
+      left: 14.7%;
+    }
+    img:last-child {
+      top: 8.8%;
+      right: 0.9%;
+    }
+  }
+}

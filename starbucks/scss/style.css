@@ -1,0 +1,130 @@
+#page-header {
+  background: #f6f5ef;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 2px solid #000;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+}
+
+.header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1100px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.gnb-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 20px;
+}
+
+.gnb-wrap .util-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.gnb-wrap .util-list li a {
+  color: #555;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.gnb-wrap .gnb-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.gnb-wrap .gnb-list li a {
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.top-banner {
+  height: 646px;
+  background: url(../img/2022_Strawberry_main_bg.jpg) no-repeat center/cover;
+}
+
+.banner-inner {
+  max-width: 1130px;
+  position: relative;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.banner-inner .inner-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 355px;
+}
+
+.banner-inner .inner-txt img {
+  padding-top: 60px;
+}
+
+.banner-inner .inner-txt a {
+  width: 129px;
+  margin-top: 40px;
+  color: #47967c;
+  border: 2px solid #47967c;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: -2px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.banner-inner .banner-img img {
+  position: absolute;
+}
+
+.banner-inner .banner-img img:first-child {
+  top: 13%;
+  left: 36.1%;
+}
+
+.banner-inner .banner-img img:nth-child(2) {
+  top: 42%;
+  left: 14.7%;
+}
+
+.banner-inner .banner-img img:last-child {
+  top: 8.8%;
+  right: 0.9%;
+}
+/*# sourceMappingURL=style.css.map */
